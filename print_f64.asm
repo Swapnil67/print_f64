@@ -233,3 +233,16 @@ pi:	dq 3.141592653589793
 	
 	segment .bss
 x:	resb 1
+
+
+	;; For gdb debugging
+	;; break _start
+	;; layout asm
+	;; run
+	;; display $xmm0.v2_double
+	;; display $xmm1.v2_double
+	;; display $xmm2.v2_double
+	;; display *(double *)$rsp@3
+	;; display $rax
+	;; ni
+	;; si
